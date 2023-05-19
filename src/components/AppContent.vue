@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="mainContent dFlex alignCenter">
+    <div class="mainContent dFlex alignCenter justifyContentCenter">
         <h1> Content goes here </h1>
     </div>
 </template>
@@ -21,6 +21,6 @@
 
     h1{
         color: white;
-        margin-left: 200px;
+        
     }
 </style>
