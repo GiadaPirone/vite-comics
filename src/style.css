@@ -1,0 +1,19 @@
+.dFlex{
+  display: flex;
+}
+
+.spaceBeetween{
+  justify-content: space-between;
+}
+
+.spaceAround{
+  justify-content: space-around;
+}
+
+.padding15LeftRight{
+  padding: 0px 15px 0px 15px;
+}
+
+.alignCenter{
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+<script>
+    export default{
+        name: "AppNavbar"
+
+    }
+</script>
+
+<template>
+    <div class="navBar dFlex spaceAround">
+        <!-- logo. -->
+        <div class="dFlex alignCenter">
+            <img  src="../assets/dc-logo.png" alt="">
+        </div>
+        <!-- barramenu. -->
+        <div class="dFlex alignCenter">
+            
+            <p>CHARACTERS</p>             
+            <p>COMICS</p>            
+            <p>MOVIES</p>
+            <p>TV</p>
+            <p>GAMES</p>
+            <p>COLLECTIBLES</p>
+            <p>VIDEOS</p>
+            <p>FANS</p>
+            <p>NEWS</p>
+            <p>SHOP</p>
+
+        </div>
+        
+    </div>
+</template>
+
+<style scoped>
+    .navBar{
+        background-color: aqua;
+        height: 100px;
+        width: 100%;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    p{
+        padding: 0px 15px 0px 15px;
+    }
+
+    
+</style>
