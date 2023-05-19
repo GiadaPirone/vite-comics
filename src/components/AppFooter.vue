@@ -5,7 +5,7 @@
     }
 </script>
 <template>
-    <div class="footer dFlex alignCenter spaceAround">
+    <div class="footer dFlex alignCenter spaceAround zIndex">
 
         <!-- bottone -->
         <div>

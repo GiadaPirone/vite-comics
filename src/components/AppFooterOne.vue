@@ -4,8 +4,9 @@
 
     }
 </script>
+
 <template>
-    <div class="containerSfondo dFlex justifyContentCenter">
+    <div class="containerSfondo dFlex ">
         <!-- contenuto sx. -->
         <div class="containerUl dFlex  ">
             <!-- listasx. -->
@@ -56,8 +57,9 @@
         </div>
 
         <!-- blocco immagine. -->
-        
-        <img src="../assets/dc-logo-bg.png" alt="">
+        <div class="conteinerImg">
+            <img src="../assets/dc-logo-bg.png" alt="">
+        </div>
         
 
     </div>
@@ -82,13 +84,21 @@
     }
 
     .containerUl{
-        margin-right: 200px;
+        padding-left: 450px;
     }
-    .logo{
-        margin-right: 120px;
-    }
-
     .containerUl div{
         padding-left: 10px;
+    }
+
+    .conteinerImg{
+        position: relative;
+        padding-left: 375px;
+    
+    }
+
+    img{
+        position: absolute;
+        bottom: -63px;
+        width:444px ;
     }
 </style>

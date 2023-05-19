@@ -26,3 +26,8 @@
 .justifyContentCenter{
   justify-content: center;
 }
+
+.zIndex{
+  z-index: 999;
+  position: relative;
+}

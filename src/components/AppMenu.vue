@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="mainMenu dFlex justifyContentCenter">
+    <div class="mainMenu  dFlex justifyContentCenter zIndex">
         
             <div class="dFlex">
                 <img src="../assets/buy-comics-digital-comics.png" alt="">
