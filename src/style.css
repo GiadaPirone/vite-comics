@@ -22,3 +22,7 @@
 .alignCenter{
   align-items: center;
 }
+
+.justifyContentCenter{
+  justify-content: center;
+}

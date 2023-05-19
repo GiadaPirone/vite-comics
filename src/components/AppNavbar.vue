@@ -32,7 +32,7 @@
 
 <style scoped>
     .navBar{
-        background-color: aqua;
+        
         height: 100px;
         width: 100%;
     }

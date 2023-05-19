@@ -2,12 +2,13 @@
 
 import AppNavbar from './components/AppNavbar.vue'
 import AppContent from './components/AppContent.vue'
-// import AppContent from `./components/AppContent.vue`
+import AppMenu from './components/AppMenu.vue'
 
 export default {
   components:{
     AppNavbar,
-    AppContent
+    AppContent,
+    AppMenu
   }
 }
 </script>
@@ -16,8 +17,10 @@ export default {
   <header>
     <AppNavbar />
   </header>
+  
   <main>
     <AppContent />
+    <AppMenu />
   </main>
   
 </template>
