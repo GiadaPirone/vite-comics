@@ -1,10 +1,27 @@
 <script>
     export default{
-        name: "AppFooter"
+        name: "AppFooter",
+        data(){
+            return{
+                img:[
+                    "footer-facebook.png",
+                    "footer-twitter.png",
+                    "footer-youtube.png",
+                    "footer-pinterest.png",
+                    "footer-periscope.png"
+                ] 
+            };
+        },
+        methods: {
+            getImagePath: function(imgPath){
+                return new URL(imgPath, import.meta.url).href;
+            }
+        }
 
     }
 </script>
 <template>
+
     <div class="footer dFlex alignCenter spaceAround zIndex">
 
         <!-- bottone -->
@@ -15,11 +32,12 @@
         <div class="dFlex">
             <p>FOLLOW US</p>
             <div>
-                <img src="../assets/footer-facebook.png" alt="">
+                <img v-for="logo in img" :src="getImagePath(`../assets/${logo}`)" alt="">
+                <!-- <img src="../assets/footer-facebook.png" alt="">
                 <img src="../assets/footer-twitter.png" alt="">
                 <img src="../assets/footer-youtube.png" alt="">
                 <img src="../assets/footer-pinterest.png" alt="">
-                <img src="../assets/footer-periscope.png" alt="">
+                <img src="../assets/footer-periscope.png" alt=""> -->
             </div>
         </div>
         
