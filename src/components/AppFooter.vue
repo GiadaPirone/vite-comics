@@ -38,6 +38,7 @@
 
     p{
         color:#0282F9 ;
+        padding-left: 10px;
     }
 
     button {

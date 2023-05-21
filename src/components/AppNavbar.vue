@@ -1,6 +1,22 @@
 <script>
     export default{
-        name: "AppNavbar"
+        name: "AppNavbar",
+        data(){
+            return{
+                links: [
+                    "CHARACTERS",
+                    "COMICS",
+                    "MOVIES",
+                    "TV",
+                    "GAMES",
+                    "COLLECTIBLES",
+                    "VIDEOS",
+                    "FANS",
+                    "NEWS",
+                    "SHOP",
+                ]
+            }
+        }
 
     }
 </script>
@@ -13,8 +29,10 @@
         </div>
         <!-- barramenu. -->
         <div class="dFlex alignCenter">
+
+            <p class="linksMenu" v-for="link in links">{{ link }}</p>
             
-            <p>CHARACTERS</p>             
+            <!-- <p>CHARACTERS</p>             
             <p>COMICS</p>            
             <p>MOVIES</p>
             <p>TV</p>
@@ -23,7 +41,7 @@
             <p>VIDEOS</p>
             <p>FANS</p>
             <p>NEWS</p>
-            <p>SHOP</p>
+            <p>SHOP</p> -->
 
         </div>
         
@@ -44,6 +62,11 @@
     p{
         padding: 0px 15px 0px 15px;
     }
+    p:hover{
+        color: #0282F9;
+    }
+
+    
 
     
 </style>
