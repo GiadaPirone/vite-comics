@@ -12,9 +12,18 @@ export default {
     AppContent,
     AppMenu,
     AppFooterOne,
-    AppFooter
+    AppFooter,
+    data(){
+      return{
+        slides:[
+        "Action Comics",
+        "American Vampire 1976",
+        ]
+      }
+    }
   }
 }
+
 </script>
 
 <template>
@@ -23,7 +32,8 @@ export default {
   </header>
 
   <main>
-    <AppContent />
+    <AppContent :slide="slides" />
+
     <AppMenu />
   </main>
 
