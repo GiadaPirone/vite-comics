@@ -1,6 +1,7 @@
 <script >
 
 import AppNavbar from './components/AppNavbar.vue'
+import AppImg from './components/AppImg.vue'
 import AppContent from './components/AppContent.vue'
 import AppMenu from './components/AppMenu.vue'
 import AppFooterOne from './components/AppFooterOne.vue'
@@ -13,6 +14,7 @@ export default {
     AppMenu,
     AppFooterOne,
     AppFooter,
+    AppImg,
     
   },
   data(){
@@ -109,12 +111,11 @@ export default {
 <template>
   <header>
     <AppNavbar />
-    
+    <AppImg />
   </header>
 
   <main>
     <div class="conteinerSlides">
-
       <AppContent
        v-for="slide in slides"
       :img="slide.thumb"

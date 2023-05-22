@@ -9,12 +9,10 @@
 </script>
 
 <template>
-        <div class="conteinerImg"> 
-            <img :src="img" alt="">
-            <p>{{ bigText }}</p>
-        </div>
-    
-
+    <div class="conteinerImg"> 
+        <img :src="img" alt="">
+        <p>{{ bigText }}</p>
+    </div>
 </template>
 
 <style scoped>
