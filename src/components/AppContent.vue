@@ -9,13 +9,10 @@
 </script>
 
 <template>
-    <div class="dFlex">
-
         <div class="conteinerImg"> 
             <img :src="img" alt="">
             <p>{{ bigText }}</p>
         </div>
-    </div>
     
 
 </template>
@@ -28,7 +25,7 @@
         height: 120px;
     }
 
-    h1{
+    p{
         color: white;
         
     }
@@ -37,6 +34,10 @@
     } */
     img{
         width: 100px;
+    }
+
+    .conteinerImg{
+        width: 270px;
     }
 
 </style>
